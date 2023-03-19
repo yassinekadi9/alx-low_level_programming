@@ -1,24 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i < 10; i++)
-{
-for (j = i; j < 10; j++)
-{
-putchar(i + 48);
-putchar(j + 48);
-if (i != 9 || j != 9)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
+int d;
+char low;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
+for (low = 'a'; d <= '9'; d++)
+putchar(low);
 putchar('\n');
 return (0);
 }
