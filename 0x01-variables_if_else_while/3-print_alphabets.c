@@ -13,7 +13,7 @@ putchar(letter);
 letter++;
 }
 letter = 'A';
-while (letter <= 'Z') 
+while (letter <= 'Z')
 {
 putchar(letter);
 letter++;
@@ -21,4 +21,3 @@ letter++;
 putchar('\n');
 return (0);
 }
-
