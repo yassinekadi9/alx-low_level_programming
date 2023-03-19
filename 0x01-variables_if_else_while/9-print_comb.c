@@ -7,12 +7,20 @@
  */
 int main(void)
 {
-int d;
-char low;
-for (d = '0'; d <= '9'; d++)
-putchar(d);
-for (low = 'a'; low <= '9'; low++)
-putchar(low);
+int i, j;
+for (i = 0; i < 10; i++)
+{
+for (j = i + 1; j < 10; j++)
+{
+putchar(i + 48);
+putchar(j + 48);
+if (i != 8 || j != 9) 
+{
+putchar(44); /* comma */
+putchar(32); /* space */
+}
+}
+}
 putchar('\n');
 return (0);
 }
