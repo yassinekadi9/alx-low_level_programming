@@ -8,16 +8,16 @@ int main(void)
 int i, j;
 for (i = 0; i < 10; i++)
 {
-for (j = i; j < 10; j++) 
+for (j = i; j < 10; j++)
 {
-putchar(i + '0');
+putchar(i + 48);
 putchar(',');
 putchar(' ');
-putchar(j + '0');
+putchar(j + 48);
 if (j < 9)
 {
 putchar(',');
-putchar(' '};
+putchar(' ');
 }
 }
 }
