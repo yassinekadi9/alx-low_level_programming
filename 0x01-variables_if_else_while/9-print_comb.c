@@ -11,7 +11,7 @@ int d;
 char low;
 for (d = '0'; d <= '9'; d++)
 putchar(d);
-for (low = 'a'; d <= '9'; d++)
+for (low = 'a'; low <= '9'; low++)
 putchar(low);
 putchar('\n');
 return (0);
