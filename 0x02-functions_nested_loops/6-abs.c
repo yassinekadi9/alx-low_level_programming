@@ -5,6 +5,7 @@
  *              value of an integer
  * @n: taked in integer type input for function
  *
+ * int c;
  * Return: Always 0 (Success)
 */
 
