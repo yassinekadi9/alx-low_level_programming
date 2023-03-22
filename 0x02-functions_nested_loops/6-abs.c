@@ -10,7 +10,12 @@
 
 int _abs(int n)
 {
-if (n < 0)
-n = (-1) * n
-return (n);
+if (c < 0)
+{
+int abs_val;
+
+abs_val = c = -1;
+return (abs_val);
+}
+return (c);
 }
