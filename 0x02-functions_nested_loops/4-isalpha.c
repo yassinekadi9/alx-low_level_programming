@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ *
  * _isalpha check if character is a letter
  *
  *  both lowercase or uppercase
